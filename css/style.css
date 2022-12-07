@@ -1,0 +1,134 @@
+body {
+    background: #ffffff;
+    position: relative;
+}
+header{
+    text-align: center;
+    color: bisque;
+    
+}
+.header-img {
+    height: 520px;
+    width: 500px;
+    /* margin: 20px 0; */
+}
+
+
+
+
+
+.section-social{
+    text-align: center;
+}
+.stand{
+    text-align: center;
+    padding-top: 50px;
+}
+/* .stand img{
+    text-align: center;
+    width: 350px;
+    
+} */
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap:100px 35px;
+}
+.reklama{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap:1px 30px;
+}
+
+
+.fa-instagram{
+    color:#ff00a5 ;
+    font-size: 225px;
+}
+.fa-telegram{
+    color: #229ED9;
+    font-size: 225px;
+}
+.fa-phone-square{
+    color: #36c308;
+    font-size: 225px;
+}
+.fa-cog{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+.fa-map-marker{
+    color: red;
+    font-size: 305px;
+}
+.body-subtitle{
+    font-size: 15px;
+}
+.body-social{
+    right: 15px;
+    top: 15px;
+    position: absolute;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+.sub-title {
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+}
+
+.fa{
+    transition: all 0.5s;
+}
+.fa:hover {
+    transform: scale(1.5,1.5);
+}
+
+
+
+
+@media (min-width: 768px) { 
+    .header__title{
+        font-size: 37px;
+        margin-top: 25px;
+    }
+   
+    .fa-instagram{
+        font-size: 345px;
+    }
+    .stand img{
+    
+        text-align: center;
+        width: 222px;
+        
+    }
+    .fa-telegram{
+        font-size: 345px;
+    }
+    .fa-phone-square{
+        font-size: 345px;
+    }
+    /* .wrapper {
+        gap: 110px 110px ;
+    } */
+    .section-social{
+        margin-top: 55px;
+    }
+    h1 {
+        margin-top: 30px;
+        font-size: 64px;
+    }
+    .fa-cog {
+        font-size: 70px;
+    }
+    .body-subtitle{
+        font-size: 29px;
+    }
+        
+ }
+
+
+
